@@ -2,13 +2,10 @@
   "$schema": "https://opencode.ai/config.json",
   "plugin": [
     "oh-my-opencode@latest",
+    "/Users/juzhongsun/Codes/ts/OpencodePlugins/plugins/emperor",
     "opencode-google-antigravity-auth",
     "opencode-supermemory",
     "opencode-scheduler",
-    "/Users/juzhongsun/Codes/ts/OpencodePlugins/.opencode/plugins/emperor",
-    "/Users/juzhongsun/Codes/ts/OpencodePlugins/.opencode/plugins/hive",
-    "/Users/juzhongsun/Codes/ts/OpencodePlugins/.opencode/plugins/commander",
-    "/Users/juzhongsun/Codes/ts/OpencodePlugins/.opencode/plugins/superpower"
   ],
   "theme": "opencode",
   "model": "opencode/minimax-m2.5-free", 
