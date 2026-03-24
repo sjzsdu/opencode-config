@@ -7,25 +7,16 @@
     "opencode-supermemory",
     "opencode-scheduler",
   ],
-  "theme": "opencode",
   "model": "opencode/minimax-m2.5-free", 
   "autoupdate": true,
   "mcp": {
-    "git-mcp-server": {
+    "code-context": {
       "type": "local",
-      "command": ["npx", "-y", "@cyanheads/git-mcp-server@latest"],
-      "enabled": true,
-      "environment": {
-        "MCP_TRANSPORT_TYPE": "stdio"
-      }
+      "command": ["code-context-mcp"],
     },
     "chrome-devtools": {
       "type": "local",
       "command": ["npx", "-y", "chrome-devtools-mcp@latest"]
-    },
-    "wireshark": {
-      "command": "uv",
-      "args": ["tool", "run", "wireshark-mcp"]
     }
   }
 }
