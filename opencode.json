@@ -3,6 +3,11 @@
   "plugin": [
     "oh-my-opencode@latest",
     "/Users/juzhongsun/Codes/ts/OpencodePlugins/plugins/emperor",
+    "opencode-plugin-stock",
+    "opencode-plugin-superpower",
+    "opencode-plugin-emperor",
+    "opencode-plugin-commander",
+    "opencode-plugin-triage",
     "opencode-google-antigravity-auth",
     "opencode-supermemory",
     "opencode-scheduler",
